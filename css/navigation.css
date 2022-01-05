@@ -1,0 +1,63 @@
+#homeView {
+    line-height: 110px;
+    display: inline;
+}
+
+#homeView a {
+    font-size: 110px;
+    text-decoration: none;
+    color: rgb(5, 0, 4);  
+}
+
+#navigation {
+    padding: 32px;
+    background-color: #fcff4a;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 150px 0px 0px 0px;
+}
+
+nav {
+    display: inline-block;
+    position: absolute;
+    right: 32px;
+    text-align: right;
+}
+
+nav div {
+    display: inline-block;
+}
+
+nav a {
+     padding: 15px 25px;
+    font-size: 100px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(14, 13, 13);
+    background-color: #f82424;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 27px rgba(66, 66, 68, 0.37);
+    text-decoration: none;
+    margin: 40px;
+}
+
+nav a:hover {
+    background-color: #37ec00;
+}
+
+.nav a:active {
+    background-color: #3e8e41;
+    box-shadow: 0 10px #666;
+    transform: translateY(10px);
+}
+
+#user {
+    display: none;
+}
+
+#guest {
+    display: inline-block;
+}
