@@ -1,26 +1,45 @@
- .welcomeMsg{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 13px;
-    
- }
 
 #root {
     display: block;
-
     background-image: url("https://miro.medium.com/max/5472/1*Z7boPZktSNmP5P8uqDzqBQ.jpeg");
-    /* background-repeat: no-repeat; */
     background-size: cover; 
     height: 70vh;
-    
-    
     position: fixed;
     left: 0;
     right: 0;
     padding: 360px;
     margin: 62px 0px 0px 0px;
-    
 }
+
+.welcomeMsg {
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 920px;
+    top: 120px;
+}
+
+.welcomeBtn {
+    padding: 15px 25px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(14, 13, 13);
+    background-color: #f8d824;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px rgba(66, 66, 68, 0.37);
+    text-decoration: none;
+    position: absolute;
+    left: 1050px;
+    top: 160px;
+}
+
+.welcomeBtn:hover {
+    background-color: #37ec00;
+}
+
 
 
 
