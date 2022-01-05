@@ -1,15 +1,9 @@
-.welcomeMsg{
+ .welcomeMsg{
     text-align: center;
-    display: block;
-    background-color: rgb(219, 223, 0);
-    font-size: 136px;
-
-    position: fixed;
-    left: 0;
-    right: 0;
-    padding: 14px;
-    margin: -10px 0px 0px 0px;
-}
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    
+ }
 
 #root {
     display: block;
@@ -17,13 +11,14 @@
     background-image: url("https://miro.medium.com/max/5472/1*Z7boPZktSNmP5P8uqDzqBQ.jpeg");
     /* background-repeat: no-repeat; */
     background-size: cover; 
-    height: 100vh;
+    height: 70vh;
+    
     
     position: fixed;
     left: 0;
     right: 0;
     padding: 360px;
-    margin: 340px 0px 0px 0px;
+    margin: 62px 0px 0px 0px;
     
 }
 

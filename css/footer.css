@@ -2,12 +2,12 @@
 #footer{ 
     bottom: 0; 
     width:100%; 
-    height:150px; 
+    height:30px; 
     font:bold 1.7em/2.0 arial;
     text-align:center;  
     background-color: #fcff4a;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 50pt;  
+    font-size: 10pt;  
     position: fixed;
     left: 0;
     right: 0;
