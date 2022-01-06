@@ -12,10 +12,10 @@
 #navigation {
     padding: 19px;
     background-color: #fcff4a;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
-    margin: -8px 0px 0px 0px;
+    margin: -8px 0px 0px 0px;   
 }
 
 nav {
