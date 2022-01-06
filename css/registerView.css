@@ -1,19 +1,33 @@
+
+#register{
+    display: block;
+    background-image: url("https://eddd1e.files.wordpress.com/2015/04/circuits-computer-hd-wallpaper-2560x1600-8808.png");
+    background-size: cover; 
+    height: 70vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 360px;
+    margin: 54px 0px 0px 0px;
+}
+
+
 #registerArticle {
     display: block;
     width: 720px;
     margin: 32px auto 32px auto;
-    background-color: #3afb74;
+    background-color: #f4ff61;
     box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.2), 12px 12px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 16px;
     position: absolute;
     left: 350px;
-    top: 150px;
+    top: 100px;
 }
 
 article h2 {
     text-align: center; 
     background-color: salmon;
-    border: 3px solid rgb(7, 11, 247);
+    
 }  
 
 
@@ -26,7 +40,7 @@ input[type="text"], input[type="password"], .ml textarea {
 
 input[type="submit"] {
     display: block;
-    border: 3px solid rgb(7, 11, 247);
+    
     margin: -10px auto auto auto;
     background-color: salmon;
     padding: 8px 16px;
