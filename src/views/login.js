@@ -5,7 +5,7 @@ import { errorMsg, field } from "./common.js";
 
 let loginTemplate = (onLogin, errors, data) => html`
 <section id="login">
-    <article>
+    <article id="loginArticle">
         <h2>Login</h2>
         <form @submit=${onLogin} id="loginForm">
 
@@ -13,11 +13,17 @@ let loginTemplate = (onLogin, errors, data) => html`
             ${field({ label: "Username", name: "username", value: data.username, error: errors.username })}
             ${field({ label: "Password", name: "password", type: "password", error: errors.password })}
 
-
             <input type="submit" value="Login">
+
+
         </form>
+
+        <div id="withoutAccount">If you don't have account, register now!</div>
+        <button id="registerBtn" href="/register">Register</button>
+
     </article>
 </section>`;
+
 
 
 
@@ -49,6 +55,11 @@ export function loginPage(ctx) {
             update(err, { username })
         }
     };
+
+
+    document.getElementById("registerBtn").addEventListener("click",() => {
+        ctx.page.redirect("/register")
+    });
 };
 
 

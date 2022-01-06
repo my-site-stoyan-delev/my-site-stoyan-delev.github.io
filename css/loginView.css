@@ -1,0 +1,66 @@
+#loginArticle {
+    display: block;
+    width: 720px;
+    margin: 32px auto 32px auto;
+    background-color: #3afb74;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.2), 12px 12px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 16px;
+    position: absolute;
+    left: 350px;
+    top: 150px;
+}
+
+article h2 {
+    text-align: center; 
+    background-color: salmon;
+    border: 3px solid rgb(7, 11, 247);
+}  
+
+input[type="text"], input[type="password"], .ml textarea {
+    position: absolute;
+    right: 0px;
+    width: 500px;
+    padding: 6px;
+}
+
+input[type="submit"] {
+    display: block;
+    border: 3px solid rgb(7, 11, 247);
+    margin: -10px auto auto auto;
+    background-color: salmon;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+#withoutAccount{
+    font-size:21px;
+    position: relative;
+    left: 204px;
+    top: 10px
+}
+
+#registerBtn{
+    position: relative;
+    left: 550px;
+    top: -18px
+}
+
+#registerBtn {
+    padding: 10px 20px;
+    font-size: 9px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(14, 13, 13);
+    background-color: #f82424;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 6px rgba(66, 66, 68, 0.37);
+    text-decoration: none;
+    
+}
+
+#registerBtn:hover {
+    background-color: #37ec00;
+}

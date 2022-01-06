@@ -4,8 +4,8 @@ import { createSubmitHandler } from "../api/util.js";
 import { errorMsg, field } from "./common.js";
 
 let registerTemplate = (onRegister, errors, data) => html`
-<section id="register">
-    <article>
+<section id="register"> 
+    <article id="registerArticle">
         <h2>Register</h2>
         <form @submit=${onRegister} id="registerForm">
 
@@ -19,6 +19,10 @@ let registerTemplate = (onRegister, errors, data) => html`
 
             <input type="submit" value="Register">
         </form>
+        
+        <div id="withAccount">If you already have account, login now!</div>
+        <button id="loginBtn" href="/login">Login</button>
+
     </article>
 </section>`;
 
@@ -61,6 +65,10 @@ export function registerPage(ctx) {
             update(err, { username: data.username, email: data.email })
         }
     };
+
+    document.getElementById("loginBtn").addEventListener("click",() => {
+        ctx.page.redirect("/login")
+    });
 };
 
 
