@@ -16,17 +16,17 @@
     display: block;
     width: 720px;
     margin: 32px auto 32px auto;
-    background-color: #f4ff61;
+    background-color: #fcff4a;
     box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.2), 12px 12px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 16px;
     position: absolute;
-    left: 350px;
+    left: 370px;
     top: 100px;
 }
 
 article h2 {
     text-align: center; 
-    background-color: salmon;
+    background-color: #f82424;
    
 }  
 
@@ -37,15 +37,22 @@ input[type="text"], input[type="password"], .ml textarea {
     padding: 6px;
 }
 
-input[type="submit"] {
-    display: block;
-   
-    margin: -10px auto auto auto;
-    background-color: salmon;
-    padding: 8px 16px;
+ input[type="submit"] {
+    padding: 15px 25px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(14, 13, 13);
+    background-color: #f82424;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px rgba(66, 66, 68, 0.37);
     text-decoration: none;
-    color: black;
-}
+    position: relative;
+    left: 300px;
+    top: 10px;
+} 
 
 #withoutAccount{
     font-size:21px;
@@ -62,7 +69,7 @@ input[type="submit"] {
 
 #registerBtn {
     padding: 10px 20px;
-    font-size: 9px;
+    font-size: 11px;
     text-align: center;
     cursor: pointer;
     outline: none;

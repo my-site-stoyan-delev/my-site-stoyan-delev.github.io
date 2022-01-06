@@ -15,7 +15,7 @@
 .welcomeMsg {
     font-size: 23px;
     color: rgb(255, 255, 255);
-    position: absolute;
+    position: fixed;
     left: 920px;
     top: 120px;
 }
@@ -32,7 +32,7 @@
     border-radius: 10px;
     box-shadow: 0 9px rgba(66, 66, 68, 0.37);
     text-decoration: none;
-    position: absolute;
+    position: fixed;
     left: 1050px;
     top: 160px;
 }

@@ -9,6 +9,7 @@ import { catalogPage } from "./views/catalog.js";
 import { createPage } from "./views/create.js";
 import { detailsPage } from "./views/details.js";
 import { editPage } from "./views/edit.js";
+import { aboutPage } from "./views/about.js";
 import { logout } from "./api/userService.js";
 import initialize from "./api/middlewares/render.js";
 
@@ -20,6 +21,7 @@ page(notify());
 page("/", homePage);
 page("/login", loginPage);
 page("/register", registerPage);
+page("/about", aboutPage);
 page("/catalog", catalogPage);
 page("/create", createPage);
 page("/details/:id",detailsPage);
