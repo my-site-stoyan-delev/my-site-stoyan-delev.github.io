@@ -1,5 +1,6 @@
 
-#root {
+
+#home {
     display: block;
     background-image: url("https://miro.medium.com/max/5472/1*Z7boPZktSNmP5P8uqDzqBQ.jpeg");
     background-size: cover; 
@@ -8,7 +9,7 @@
     left: 0;
     right: 0;
     padding: 360px;
-    margin: 62px 0px 0px 0px;
+    margin: 54px 0px 0px 0px;
 }
 
 .welcomeMsg {
