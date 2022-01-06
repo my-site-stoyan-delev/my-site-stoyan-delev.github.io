@@ -5,26 +5,8 @@ import { errorMsg, field } from "./common.js";
 
 let createTemplate = (onCreate, errors, data) => html`
 <section id="create">
-    <article>
-        <h2>New Place</h2>
-        <form @submit=${onCreate} id="createForm">
+    
 
-            ${errorMsg(errors)}
-            ${field({ label: "Name", name: "name", placeholder: "Place", value: data.name, error: errors.name })}
-            ${field({ label: "Image", name: "img", placeholder: "Image URL", value: data.img, error: errors.img })}
-            ${field({
-            label: "Location", type: "textarea", name: "location",
-         placeholder: "Enter location on new place", value: data.location, error: errors.location
-            })}
-
-            ${field({
-            label: "Description", type: "textarea", name: "description",
-         placeholder: "Enter more information for this place", value: data.description, error: errors.description
-            })}
-
-            <input type="submit" value="Create Place">
-        </form>
-    </article>
 </section>`;
 
 

@@ -50,7 +50,7 @@ export function loginPage(ctx) {
             event.target.reset();
             ctx.updateSession();
             ctx.updateUserNav();
-            ctx.page.redirect("/")
+            ctx.page.redirect("/about")
         } catch (err) {
             update(err, { username })
         }

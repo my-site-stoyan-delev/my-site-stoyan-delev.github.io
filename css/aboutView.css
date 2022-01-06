@@ -1,0 +1,11 @@
+#about {
+    display: block;
+    background-image: url("https://images.livemint.com/img/2021/01/15/1600x900/72460dfb9f9a446b90ec3d6e7e2feb4c-72460dfb9f9a446b90ec3d6e7e2feb4c-0_1595383180877_1595383193792_1610678500277.jpg");
+    background-size: cover; 
+    height: 70vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 360px;
+    margin: 54px 0px 0px 0px;
+}
